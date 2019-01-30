@@ -11,8 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var theButton: UIButton!    
-    @IBOutlet weak var theLabel: UILabel!
+    @IBOutlet weak var theButton: UIButton! 
     
 
     override func viewDidLoad() {
@@ -22,13 +21,18 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonPressed(_ sender: Any) {
-        let newFontSize = CGFloat(Int.random(in:1 ..< 100))
-        let newXPos = CGFloat(Int.random(in:-300 ..< 0))
-        let newYPos = CGFloat(Int.random(in:0 ..< 500))
-        theLabel.textColor = randomColor()
-        theLabel.font = theLabel.font.withSize(newFontSize)
-        theLabel.frame.origin =
-            CGPoint(x: newXPos, y: newYPos)
+        let FontSize = CGFloat(Int.random(in:1 ..< 200))
+        let XPos = CGFloat(Int.random(in:-100 ..< 200))
+        let YPos = CGFloat(Int.random(in:-400 ..< 200))
+        
+        let newLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 1000, height: 1000))
+        
+        newLabel.textColor = randomColor()
+        newLabel.font = newLabel.font.withSize(FontSize)
+        newLabel.frame.origin = CGPoint(x: XPos, y: YPos)
+        newLabel.text = "Hello World"
+        
+        self.view.addSubview(newLabel)
         
     }
     
