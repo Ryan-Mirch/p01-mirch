@@ -22,7 +22,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonPressed(_ sender: Any) {
+        let newFontSize = CGFloat(Int.random(in:1 ..< 100))
+        let newXPos = CGFloat(Int.random(in:-300 ..< 0))
+        let newYPos = CGFloat(Int.random(in:0 ..< 500))
         theLabel.textColor = randomColor()
+        theLabel.font = theLabel.font.withSize(newFontSize)
+        theLabel.frame.origin =
+            CGPoint(x: newXPos, y: newYPos)
+        
     }
     
     func randomColor() -> UIColor {
