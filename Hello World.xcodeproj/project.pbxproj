@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C04599F22202B49500C88ACF /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = C04599F12202B49500C88ACF /* Screenshots */; };
+		C04599F42202B51800C88ACF /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = C04599F32202B51800C88ACF /* Screenshots */; };
 		C0F6B83F22012E9200E5BFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6B83E22012E9200E5BFF7 /* AppDelegate.swift */; };
 		C0F6B84122012E9200E5BFF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6B84022012E9200E5BFF7 /* ViewController.swift */; };
 		C0F6B84422012E9200E5BFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F6B84222012E9200E5BFF7 /* Main.storyboard */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C04599F12202B49500C88ACF /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
+		C04599F32202B51800C88ACF /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
 		C0F6B83B22012E9200E5BFF7 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F6B83E22012E9200E5BFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0F6B84022012E9200E5BFF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +79,7 @@
 		C0F6B83222012E9200E5BFF7 = {
 			isa = PBXGroup;
 			children = (
+				C04599F32202B51800C88ACF /* Screenshots */,
 				C0F6B83D22012E9200E5BFF7 /* Hello World */,
 				C0F6B85222012E9400E5BFF7 /* Hello WorldTests */,
 				C0F6B85D22012E9400E5BFF7 /* Hello WorldUITests */,
@@ -99,7 +100,6 @@
 		C0F6B83D22012E9200E5BFF7 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
-				C04599F12202B49500C88ACF /* Screenshots */,
 				C0F6B83E22012E9200E5BFF7 /* AppDelegate.swift */,
 				C0F6B84022012E9200E5BFF7 /* ViewController.swift */,
 				C0F6B84222012E9200E5BFF7 /* Main.storyboard */,
@@ -232,10 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04599F22202B49500C88ACF /* Screenshots in Resources */,
 				C0F6B84922012E9400E5BFF7 /* LaunchScreen.storyboard in Resources */,
 				C0F6B84622012E9400E5BFF7 /* Assets.xcassets in Resources */,
 				C0F6B84422012E9200E5BFF7 /* Main.storyboard in Resources */,
+				C04599F42202B51800C88ACF /* Screenshots in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
